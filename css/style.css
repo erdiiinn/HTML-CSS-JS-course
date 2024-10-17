@@ -1,0 +1,42 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background: url(/Foto/logo2.png);
+    background-size: cover;
+}
+
+
+
+h1{
+    color:red;
+    font-size: 20px;
+}
+
+p{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+}
+
+.box{
+    /*padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px; */
+    padding: 50px;
+    margin:20px;
+    border: 10px solid black;
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
+
+.box2{
+    margin: 0 auto;
+}
