@@ -1,0 +1,67 @@
+h1{
+    color:green;
+    letter-spacing: 20px;
+    word-spacing:  20px;
+    font-family: "Fake Identity";
+}
+p{
+    text-indent: 50px;
+    text-align: center;
+   /* writing-mode: vertical-lr;, */
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-decoration: overline;
+}
+h3{
+    text-decoration: line-through;
+}
+h4{
+    text-decoration: underline;
+    color: blue !important;
+    color: green;
+}
+
+#normalText{
+    font-style: normal;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+#italicText{
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#obliqueText{
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: 700;
+} 
+
+a{
+    color:red;
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color:hotpink;
+}
+a:active{
+    color: blue;
+}
+
+/*.playwrite-gb-s-uniquifier {
+  font-family: "Playwrite GB S", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
