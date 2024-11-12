@@ -1,0 +1,109 @@
+div#translate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #00014e;
+    /* transform: translate(100px, 50px); */
+    /* transform: rotate(190deg); */
+    transform: scale(2,2);
+    padding: 10px;
+}
+
+div#scaleX{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #00014e;
+    padding: 10px;
+    margin-left: 250px;
+    transform: scaleX(3);
+}
+
+div#scaleY{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #00014e;
+    padding: 10px;
+    margin-left: 250px;
+    transform: scaleY(3);
+}
+
+div#skewX{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 100px;
+    transform: skewX(-40deg);
+}
+
+div#skewY{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 100px;
+    transform: skewY(40deg);
+}
+
+div#rotate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 750;
+    /* transform: rotateX(130deg); */
+    /* transform: rotateY(130deg); */
+    transform: rotateZ(130deg);
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: background 3s, border-radius 5s;
+    transition-timing-function: linear;
+}
+
+.container:hover{
+    background: blue;
+    border-radius: 50%;
+}
+
+#foto1 img {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+#foto1:hover img{
+    transform: scale(1.3);
+}
+
+#foto2 img{
+    margin-left: 0px;
+    transition: .3s ease-in-out;
+}
+
+#foto2:hover img{
+    margin-left: 30px;
+}
+
+#foto3 img{
+    filter: blur(0);
+    transition: .3s ease-in-out;
+}
+
+#foto3:hover img{
+    filter: blur(3px);
+}
+
