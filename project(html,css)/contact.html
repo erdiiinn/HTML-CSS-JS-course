@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rrufeja News - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Old+English+Text+MT&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="welcome-text-home">Welcome to Rrufeja News</h1>
+        <div id="headline-banner">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolor commodi at facilis culpa blanditiis minus non hic illum. Quaerat pariatur totam voluptatibus ea eveniet incidunt cumque quibusdam ipsum illo.</p>
+        </div>
+    </header>
+
+    <nav id="main-navigation">
+        <ul class="nav-list">
+            <li><a href="MAIN.html">Main</a></li>
+            <li><a href="world.html">World</a></li>
+            <li><a href="sport.html">Sports</a></li>
+            <li><a href="entertainment.html">Entertainment</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="content-wrapper" class="main-content">
+        <section id="contact-info" class="article">
+            <h2>Contact Us</h2>
+            <p>We value your feedback and inquiries. If you have any questions or would like to get in touch, please use the contact form below or reach us through our social media channels.</p>
+
+            <h3>Contact Form</h3>
+            <form action="/submit_form" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" required placeholder="Write your message here"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+
+            <h3>Social Media</h3>
+            <p>Follow us and stay connected through our social media platforms:</p>
+            <ul class="social-media-links">
+                <li><a href="https://www.facebook.com/search/top/?q=rrufeja%20news">Facebook</a></li>
+                <li><a href="https://x.com/RrufejaNews">Twitter</a></li>
+                <li><a href="https://www.youtube.com/rrufejanews">YouTube</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer id="footer">
+        <div id="footer-info" class="footer-content">
+            <p>&copy;2024 Rrufeja News. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
