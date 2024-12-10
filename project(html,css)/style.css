@@ -5,13 +5,11 @@
     font-family: 'Georgia', Times, serif;
 }
 
-
 body {
     background-color: #ffffff;
     color: #333;
     line-height: 1.8;
 }
-
 
 header {
     text-align: center;
@@ -39,12 +37,10 @@ header h1::after {
     animation: underlineExpand 2s ease-out forwards;
 }
 
-
 header p {
     font-size: 1rem;
     color: #777;
 }
-
 
 #main-navigation {
     text-align: center;
@@ -52,6 +48,83 @@ header p {
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
     animation: fadeIn 2s ease-in-out;
+}
+
+#welcome-text {
+    font-family: 'UnifrakturMaguntia', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+#welcome-text-home {
+    font-family: 'UnifrakturMaguntia', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+#welcome-text-sport {
+    font-family: 'UnifrakturMaguntia', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+#welcome-text-contact {
+    font-family: 'UnifrakturMaguntia', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+#welcome-text-aboutus {
+    font-family: 'UnifrakturMaguntia', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+#welcome-text-world {
+    font-family: 'UnifrakturMaguntia', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+#welcome-text-entertainment {
+    font-family: 'UnifrakturMaguntia', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
 }
 
 .nav-list {
@@ -77,7 +150,6 @@ header p {
     text-decoration: underline;
 }
 
-
 #headline-banner {
     background-color: #f8f8f8;
     color: #c00;
@@ -89,7 +161,6 @@ header p {
     animation: blink 1s linear infinite;
 }
 
-
 #content-wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -98,7 +169,6 @@ header p {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 
 .article {
     border-bottom: 1px solid #ddd;
@@ -138,7 +208,6 @@ header p {
     color: #c00;
     transform: scale(1.1);
 }
-
 
 #extra-news {
     padding: 15px;
@@ -220,7 +289,6 @@ header p {
     transform: scale(1.1);
 }
 
-
 #footer {
     background-color: #f8f8f8;
     padding: 20px;
@@ -246,16 +314,3 @@ header p {
 .footer-content a:hover {
     color: #c00;
 }
-
-#welcome-text {
-    font-family: 'UnifrakturMaguntia', serif;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    color: black;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    
-}
-
-
