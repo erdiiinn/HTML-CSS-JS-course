@@ -12,7 +12,7 @@
     <header>
         <h1 id="welcome-text-contact">Welcome to Rrufeja News</h1>
         <div id="headline-banner">
-            <p>We guarantee fixes that you put in your feedback.</p>
+            <p>Your voice matters! Let us know your thoughts.</p>
         </div>
     </header>
 
@@ -22,48 +22,61 @@
             <li><a href="world.html">World</a></li>
             <li><a href="sport.html">Sports</a></li>
             <li><a href="entertainment.html">Entertainment</a></li>
+            <li><a href="home.html"> Home </a></li>
             <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
         </ul>
     </nav>
 
-    <div id="content-wrapper" class="main-content">
+    <main id="content-wrapper" class="main-content">
         <section id="contact-info" class="article">
             <h2>Contact Us</h2>
-            <p>We value your feedback and inquries. If you have any questions or would like to get in touch, please use the contact form below or reach us through our social media channels.</p>
+            <p>We value your feedback and inquiries. If you have any questions or would like to get in touch, please use the contact form below or reach us through our social media channels.</p>
 
             <h3>Contact Form</h3>
             <form action="/submit_form" method="POST">
                 <div class="form-group">
-                    <label for="name">Full Name:</label>
+                    <label for="name">Full Name:</label><br>
                     <input type="text" id="name" name="name" required placeholder="Enter your full name">
-                </div> <br> <br>
-
+                </div>
                 <div class="form-group">
-                    <label for="email">Email Address:</label>
+                    <label for="email">Email Address:</label><br>
                     <input type="email" id="email" name="email" required placeholder="Enter your email address">
-                </div> <br> <br>
-
+                </div>
                 <div class="form-group">
-                    <label for="message">Your Message:</label>
-                    <textarea id="message" name="message" required placeholder="Write your message here"></textarea>
-                </div> <br> <br>
- 
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" required placeholder="Write your message here" rows="5"></textarea>
+                </div>
                 <div class="form-group">
                     <button type="submit">Send Message</button>
-                </div> <br> <br>
-            </form>
-
-            <footer id="footer">
-                <div id="footer-info" class="footer-content">
-                    <p>Follow us on social media:</p>
-                    <ul class="social-media-links">
-                        <li><a href="https://www.facebook.com/search/top/?q=rrufeja%20news">Facebook</a></li>
-                        <li><a href="https://x.com/RrufejaNews">Twitter</a></li>
-                        <li><a href="https://www.youtube.com/rrufejanews">YouTube</a></li>
-                    </ul>
-                    <p>&copy;2024 Rrufeja News. All rights reserved.</p>
                 </div>
-            </footer>
+            </form>
+        </section>
+
+        <section id="additional-contact">
+            <h3>Other Ways to Reach Us</h3>
+            <p>If you prefer, you can also reach us through the following:</p>
+            <ul>
+                <li>Email: <a href="mailto:support@rrufeja.com">support@rrufeja.com</a></li>
+                <li>Phone: +383 49 302 228</li>
+                <li>Address: Pejton, Prishtina, Kosova</li>
+            </ul>
+        </section>
+
+        <section id="follow-us">
+            <h3>Follow Us</h3>
+            <p>Stay connected with us on social media for the latest updates and news:</p>
+            <ul class="social-media-links">
+                <li><a href="https://www.facebook.com/search/top/?q=rrufeja%20news">Facebook</a></li>
+                <li><a href="https://x.com/RrufejaNews">Twitter</a></li>
+                <li><a href="https://www.youtube.com/rrufejanews">YouTube</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div id="footer-info" class="footer-content">
+            <p>&copy;2024 Rrufeja News. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', Times, serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.8;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+header h1 {
+    font-family: 'UnifrakturMaguntia', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#headline-banner {
+    background-color: #f8f8f8;
+    color: #c00;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    animation: blink 1s linear infinite;
+}
+
+#main-navigation {
+    text-align: center;
+    margin: 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-list {
+    list-style: none;
+    display: inline-flex;
+    gap: 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #c00;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+#content-wrapper {
+    padding: 20px;
+    margin: 20px auto;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.article p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.news-article h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.news-article p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.news-article img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #777;
+    border-top: 1px solid #ddd;
+}
+
+.footer-content ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    color: #c00;
+}
+
