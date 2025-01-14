@@ -1,0 +1,32 @@
+.test{
+    color: red;
+    background-color: antiquewhite;
+    font-size: 100px;
+    margin-top: 20px;
+    text-align: center;
+    transition: 1s ease;
+    transform: (0.9);
+}
+
+.shape_circle{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.shape_rect{
+    width: 200px;
+    height: 100px;
+    background-color: red;  
+}
+
+.shape_triangle{
+    width: 0;
+    height: 0;
+    border-right: 5% transparent;
+    border-bottom: 100px solid red;
+}
+
+.hide{
+    display: none;
+}
